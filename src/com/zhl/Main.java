@@ -3,7 +3,7 @@ package com.zhl;
 public class Main{
   public static void main(String[]args){
     int[] nums = {1,1,2};
-
+    //去除重复数字
     System.out.println(removeDuplicates(nums));
   }
 
