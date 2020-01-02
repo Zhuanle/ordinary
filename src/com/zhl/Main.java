@@ -3,13 +3,15 @@ package com.zhl;
 public class Main{
   public static void main(String[]args){
     int[] nums = {1,1,2};
-    //去除重复数字
+   
     System.out.println(removeDuplicates(nums));
   }
 
   //去除重复数字
   public static int removeDuplicates(int[] nums) {
     // write your code here
+    
+    //实际长度
     int size = nums.length;
     for(int  i = 0;i < size-1;i++){
       if(nums[i] == nums[i+1]) {
