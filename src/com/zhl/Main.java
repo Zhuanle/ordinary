@@ -7,6 +7,7 @@ public class Main{
     System.out.println(removeDuplicates(nums));
   }
 
+  //去除重复数字
   public static int removeDuplicates(int[] nums) {
     // write your code here
     int size = nums.length;
